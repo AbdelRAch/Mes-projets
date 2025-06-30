@@ -1,0 +1,16 @@
+shinytheme("superhero")
+/* Modifier la couleur de fond de la page */
+body {
+  background-image: url('FFRS.JPG'); /* Chemin vers votre image */
+  background-size: cover; /* Ajustement de la taille de l'image */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+  background-position: center center; /* Positionnement de l'image */
+}
+
+/* Style pour le numericInput */
+.custom-numeric-input input[type='number'] {
+  background-color: #333333;
+  color: white;
+  border: 2px solid black; /* Ajout de la bordure noire */
+  border-radius: 5px; /* Optionnel: arrondir les coins */
+}
