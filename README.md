@@ -60,10 +60,11 @@ Application interactive combinant web scraping, visualisation et analyse statist
 ---
 
 ## Projets Machine Learning & IA
-
+---
 Ce dossier contient plusieurs notebooks explorant des problématiques variées :
 
 ### 1. Classification d’images (Deep Learning)
+`Projet_Deep_Learning.ipynb`
 
 - Dataset Stanford Dogs, 5 races ciblées  
 - CNN entraîné from scratch + data augmentation  
@@ -71,6 +72,7 @@ Ce dossier contient plusieurs notebooks explorant des problématiques variées :
 - Évaluation sur échantillon test (25%)
 
 ### 2. Classification d’articles de presse (NLP avancé)
+`Projet_Textmining_avancé.ipynb`
 
 - Catégorisation en Économie, Sport, Science  
 - Prétraitement textuel (nettoyage, tokenisation, stopwords)  
@@ -79,14 +81,15 @@ Ce dossier contient plusieurs notebooks explorant des problématiques variées :
 - Analyse des probabilités de classification et erreurs
 
 ### 3. Classification âge coquilles d’ormeaux (ML tabulaire)
+`Projet_Machine_Learning_Classification.ipynb`
 
 - Dataset UCI Abalone  
 - Catégorisation en classes d’âge : Jeune, Adulte, Vieux  
 - Modèles : Régression Logistique, k-NN, Random Forest  
 - Recherche d’hyperparamètres, évaluation complète (accuracy, F1, matrices de confusion)  
-- Random Forest performe le mieux (~62.7% accuracy)
 
 ### 4. Prédiction de l’âge des ormeaux (Régression)
+`Projet_Machine_Learning_Prédiction.ipynb`
 
 - Dataset UCI Abalone  
 - Objectif : prédire l’âge d’un ormeau à partir de caractéristiques physiques  
@@ -94,11 +97,6 @@ Ce dossier contient plusieurs notebooks explorant des problématiques variées :
 - Modèles testés : Arbre de Décision (GridSearchCV), Random Forest, Bagging Regressor, Gradient Boosting  
 - Comparaison finale : KNN, SVM, Decision Tree, Random Forest  
 - Métriques d’évaluation : MSE, MAE, R², courbes d’apprentissage (par nombre de variables)  
-- Observations clés :  
-  - Random Forest offre les meilleurs résultats globaux (MSE ~3.98, R² ~0.60)  
-  - SVM est le plus précis selon la MAE (~1.45), robuste aux petites erreurs  
-  - Performances optimales avec 5 à 7 variables (surapprentissage léger au-delà)  
-  - Variables les plus influentes : Shell_weight, Whole_weight, Height  
 - Visualisations :  
   - Importance des variables  
   - Évolution MSE / R² (train vs test)  
