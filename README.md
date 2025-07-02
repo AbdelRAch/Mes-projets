@@ -19,24 +19,24 @@ Application Shiny pour visualiser consommation et production électrique à pas 
 
 ---
 
-# Stage FFRS – Analyse de la Vitesse sur Glace
+## Stage FFRS – Analyse de la Vitesse sur Glace
 
 ---
 
-## 📊 Clustering
+### Clustering
 
-### `Clustering_By_Cont_Ind_Var.R`
+#### `Clustering_By_Cont_Ind_Var.R`
 - Analyse des rythmes de tours en compétition.
 - Identification de groupes d’athlètes pour adapter les stratégies de course.
 
-### `Visualisation_groupes.R`
+#### `Visualisation_groupes.R`
 - Visualisation des groupes identifiés selon les compétitions et les différents tours.
 
 ---
 
-## 🧊 ICE Speed Analysis
+### ICE Speed Analysis
 
-### `App_Global.R`
+#### `App_Global.R`
 Application interactive combinant web scraping, visualisation et analyse statistique.
 
 **Fonctionnalités :**
@@ -48,13 +48,13 @@ Application interactive combinant web scraping, visualisation et analyse statist
 
 ---
 
-## 📄 Scraping de PDF
+### Scraping de PDF
 
-### `SCRAPING_Interactif_Plus.R`
+#### `SCRAPING_Interactif_Plus.R`
 - Extraction interactive de données depuis des fichiers PDF.
 - Possibilité de modifier l'ordre, ajouter/supprimer des colonnes ou lignes, pour structurer correctement les résultats.
 
-### `DataFFRS.Viz.R`
+#### `DataFFRS.Viz.R`
 - Visualisation multi-échelle des données extraites.
 - Filtres et critères personnalisés pour explorer les résultats selon plusieurs dimensions.
 ---
